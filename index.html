@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryans' Organic Farm - Fresh Sheep & Vegetables</title>
     <link href="./css/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/favicon.jpg">
   </head>
-  <body class="bg-green-50 min-h-screen">
+  <body class="bg-yellow-100 min-h-screen">
     <!-- Header -->
-    <header class="bg-green-800 text-white p-4">
+    <header class="bg-green-900 text-yellow-100 p-4">
       <nav class="container mx-auto flex justify-between">
         <h3 class="text-2xl font-bold">Feirm Riain</h3>
         <a
           href="https://openfoodnetwork.ie/ryanfarm/shop#/shop_panel"
-          class="hover:text-green-200 transition-colors"
+          class="hover:text-orange-400 transition-colors"
           >Shop</a
         >
       </nav>
@@ -23,10 +24,9 @@
     <main class="container mx-auto px-4 py-8">
       <div class="max-w-2xl mx-auto text-center">
         <div class="mb-8">
-          <div class="w-[100px] h-[100px] mx-auto bg-green-200 overflow-hidden">
-            <!-- Profile image placeholder -->
+          <div class="w-[100px] h-[100px] mx-auto bg-green-200 overflow-hidden border-4 border-green-900 rounded-md">
             <img
-              src="img/profile.png"
+              src="img/profile_100.jpg"
               alt="Farm Profile"
               class="w-full h-full object-cover"
             />
@@ -36,14 +36,16 @@
         <h1 class="text-3xl font-bold text-green-900 mb-4">
           Welcome to Our Organic Farm
         </h1>
-        <p class="text-green-700 mb-6">
-          Growing sustainable, organic vegetables and raising happy, healthy
-          sheep.
+        <p class="text-green-900 mb-6">
+            Organic sheep and veg near the Meath / Kildare / Dublin border.<br/><br/>
+            We're a small family run farm and we're passionate about producing high quality food for our customers.
+            We leave significant space for nature to thrive on the farm and we're always looking for ways to improve our practices.<br/>
+            Contact us on <a href="https://ig.me/m/feirm.ryan" class="text-orange-400 underline hover:text-orange-500">Instagram</a> or <a href="mailto:info@ryanfarm.ie" class="text-orange-400 underline hover:text-orange-500">Email</a> if you have questions or ideas.
         </p>
 
         <a
           href="https://openfoodnetwork.ie/ryanfarm/shop#/shop_panel"
-          class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors mb-8"
+          class="inline-block bg-orange-400 hover:bg-orange-500 text-white font-semibold py-3 px-8 rounded-lg transition-colors mb-8 shadow"
         >
           Shop Here
         </a>
@@ -357,16 +359,49 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-green-800 text-white mt-12 py-6">
-      <div class="container mx-auto px-4 text-center">
-        <a
-          href="https://openfoodnetwork.ie/ryanfarm/shop#/shop_panel"
-          class="inline-block hover:text-green-200 transition-colors"
-          >Visit Our Shop</a
-        >
-        <p class="mt-4 text-sm">
-          © 2024 Ryans' Organic Farm. All rights reserved.
-        </p>
+    <footer class="bg-green-900 text-yellow-100 mt-12 py-6">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+          <div class="text-center">
+            <h3 class="font-semibold mb-2">Contact Us</h3>
+            <a
+              href="https://ig.me/m/feirm.ryan"
+              class="inline-block hover:text-orange-400 transition-colors"
+              >Message Us on Instagram</a
+            >
+            <p>
+                Email us at <a href="mailto:info@ryanfarm.ie">info@ryanfarm.ie</a>
+            </p>
+          </div>
+          <div class="text-center">
+            <h3 class="font-semibold mb-2">Quick Links</h3>
+            <a
+              href="https://www.instagram.com/feirm.ryan"
+              target="_blank"
+              class="inline-block hover:text-orange-400 transition-colors"
+              >Instagram</a
+            ><br/>
+            <a
+              href="https://openfoodnetwork.ie/ryanfarm/shop#/shop_panel"
+              class="inline-block hover:text-orange-400 transition-colors mb-2"
+              >Visit Our Shop</a
+            >
+          </div>
+          <div class="text-center md:text-left">
+            <address class="not-italic text-sm">
+              Ryan Farm<br>
+              Collistown<br>
+              Kilcloon<br>
+              Co. Meath<br>
+              Ireland
+            </address>
+          </div>
+        </div>
+        <div class="text-center border-t border-green-700 pt-4">
+          <p class="text-sm">
+            © 2024 Ryans' Organic Farm. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
