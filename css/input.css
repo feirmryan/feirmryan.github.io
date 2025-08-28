@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+.bg-ash-green {
+    background-color: #40443a;
+}
+
+.bg-kilcloon-cream {
+    background-color: #f7e6c1;
+}
+
+.text-kilcloon-cream {
+    color: #f7e6c1;
+}
+
+.bg-dusty-halftone {
+    background: url("../img/background.png") repeat;
+}
+
+.instagram-media {
+    background: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5),
+      0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 1px;
+    max-width: 540px;
+    min-width: 326px;
+    padding: 0;
+    width: 99.375%;
+    width: -webkit-calc(100% - 2px);
+    width: calc(100% - 2px);
+}
+
+.helvetica {
+    font-family: "helvetica", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:hover {
+    color: var(--color-orange-500);
+}
